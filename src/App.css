@@ -1,0 +1,14 @@
+.app{
+  background-image: url(./images/bg-sidebar-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 172px;
+}
+
+
+@media (min-width: 1024px) {
+  .app{
+  background-image: url(./images/bg-sidebar-desktop.svg);
+  background-size:auto;
+}
+}
